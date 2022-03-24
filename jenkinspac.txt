@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage ("working with pac") {
+            steps {
+                script {
+                    println ("hello all")
+                }
+            }
+        }
+    }
+}
